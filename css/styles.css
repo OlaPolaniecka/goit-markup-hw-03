@@ -1,0 +1,171 @@
+.logo {
+  color: #000000;
+  font-family: Raleway;
+  font-style: bold;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+}
+
+.web {
+  color: #2196f3;
+}
+
+.contact {
+  color: #757575;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.contact:hover {
+  color: #2196f3;
+}
+
+.section-one {
+  background: #2f303a;
+}
+
+.header-top {
+  color: #ffffff;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 60px;
+}
+
+.button-main {
+  background: #2196f3;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+.lorem-ipsum-header {
+  color: #212121;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.text {
+  color: #757575;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.header-two {
+  color: #212121;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+}
+
+.name {
+  color: #212121;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+}
+
+.profession {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+.last-section {
+  background: #2f303a;
+}
+
+.street {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.logo-footer {
+  color: #ffffff;
+  font-family: Raleway;
+  font-style: bold;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+}
+
+.address-footer a {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.address-footer a:hover {
+  color: #2196f3;
+}
+
+.menu-nav a {
+  color: #212121;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.menu-nav a:hover {
+  color: #2196f3;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button-options {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  cursor: pointer;
+}
+
+.button-options:hover {
+  background: #2196f3;
+  color: #ffffff;
+}
+
+.button-options:focus {
+  background: #2196f3;
+  color: #ffffff;
+}
+
+.figcaption-name {
+  color: #212121;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.figcaption-subname {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+menu {
+  list-style-type: none;
+}
+
+.team-background {
+  background: #f5f4fa;
+}
+
+.figure-border {
+  border: 1px solid #eeeeee;
+}
