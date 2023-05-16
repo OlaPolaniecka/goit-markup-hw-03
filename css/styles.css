@@ -5,6 +5,8 @@
   font-size: 26px;
   font-weight: 700;
   line-height: 31px;
+  margin-top: 24px;
+  margin-bottom: 25px;
 }
 
 .web {
@@ -16,6 +18,7 @@
   font-size: 14px;
   font-weight: 500;
   line-height: 16px;
+  display: flex-block;
 }
 
 .contact:hover {
@@ -24,6 +27,10 @@
 
 .section-one {
   background: #2f303a;
+  width: 1600px;
+  height: 600px;
+  max-width: 100%;
+  padding-top: 32px;
 }
 
 .header-top {
@@ -31,6 +38,11 @@
   font-size: 44px;
   font-weight: 900;
   line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  width: 696px;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 .button-main {
@@ -40,6 +52,12 @@
   font-weight: 700;
   line-height: 30px;
   cursor: pointer;
+  letter-spacing: 0.06em;
+  text-align: center;
+  min-width: 200px;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 42px;
 }
 
 .lorem-ipsum-header {
@@ -47,6 +65,7 @@
   font-size: 14px;
   font-weight: 700;
   line-height: 16px;
+  padding-bottom: 10px;
 }
 
 .text {
@@ -61,6 +80,10 @@
   font-size: 36px;
   font-weight: 700;
   line-height: 42px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+  padding-top: 94px;
 }
 
 .name {
@@ -115,6 +138,12 @@
   line-height: 16px;
 }
 
+.menu-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 46px;
+}
+
 .menu-nav a:hover {
   color: #2196f3;
 }
@@ -164,8 +193,74 @@ menu {
 
 .team-background {
   background: #f5f4fa;
+  padding-top: 94px;
 }
 
 .figure-border {
   border: 1px solid #eeeeee;
+}
+
+.container {
+  padding: 0 15px;
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.nav-contact {
+  display: flex;
+  justify-content: space-between;
+  gap: 46px;
+}
+
+.buttomm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 200px;
+}
+
+.top {
+  padding-top: 200px;
+  padding-bottom: 280px;
+}
+
+.lorem-ipsum-list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  list-style: none;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.what-we-do-image {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding-bottom: 94px;
+}
+
+.team-worker {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding-bottom: 94px;
+}
+
+.team-worker-item {
+  text-align: center;
+  background-color: var(--main-white);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  width: 270px;
 }
