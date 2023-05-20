@@ -188,6 +188,10 @@ a {
   font-size: 18px;
   font-weight: 700;
   line-height: 36px;
+  margin-top: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+  letter-spacing: 0.06em;
 }
 
 .figcaption-subname {
@@ -195,6 +199,10 @@ a {
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
+  margin-top: 4px;
+  padding-left: 24px;
+  padding-right: 24px;
+  letter-spacing: 0.03em;
 }
 
 ul {
@@ -302,11 +310,28 @@ menu {
   justify-content: center;
   gap: 8px;
   padding-top: 94px;
-  padding-bottom: 56px;
+  padding-bottom: 34px;
 }
 
 .portfolio-image {
+  gap: 30px;
+  padding: 0;
+  margin: 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  flex-basis: calc((100% - 30px) / 3);
+}
+
+.section-image {
+  margin-bottom: 94px;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.portfolio-section {
+  margin-left: 215px;
+  margin-right: 215px;
 }
