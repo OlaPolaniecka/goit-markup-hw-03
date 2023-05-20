@@ -219,11 +219,11 @@ menu {
 }
 
 .figure-border {
-  border: 1px solid #eeeeee;
+  border-bottom: 4px solid rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
 }
 
 .container {
-  padding: 0 15px;
   width: 1200px;
   max-width: 100%;
   margin: 0 auto;
@@ -322,16 +322,16 @@ menu {
   flex-basis: calc((100% - 30px) / 3);
 }
 
-.section-image {
-  margin-bottom: 94px;
-}
-
-.section {
+section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.portfolio-section {
-  margin-left: 215px;
-  margin-right: 215px;
+figure.figure-border {
+  margin: 0 auto;
+}
+
+.header-border {
+  border-bottom: 4px solid rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
 }
