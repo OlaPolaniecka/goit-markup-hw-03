@@ -275,11 +275,11 @@ menu {
 
 .team-worker-item {
   text-align: center;
-  background-color: var(--main-white);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   width: 270px;
+  background: #ffffff;
 }
 
 .image {
@@ -326,7 +326,6 @@ menu {
 section {
   padding-top: 94px;
   padding-bottom: 94px;
-  background: #f5f4fa;
 }
 
 figure.figure-border {
@@ -341,4 +340,8 @@ header {
   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.team-block {
+  background: #f5f4fa;
 }
